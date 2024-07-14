@@ -41,7 +41,7 @@ st.sidebar.info(
 # 填写预测变量
 # 社会人口学
 factor1 = st.radio('性别', ['男性', '女性'], index=None)
-factor2 = st.slider('请填写您的年龄', 45, 120)
+factor2 = st.slider('请填写您的年龄', 45, 120, index=None)
 factor3 = st.radio('请填写您的民族', ['汉族', '其他'])
 factor4 = st.radio('请选择您的学历',
                    ['小学及以下', '小学学历', '初中学历', '高中学历', '大学及以上', '从未上过学', '不清楚'])
