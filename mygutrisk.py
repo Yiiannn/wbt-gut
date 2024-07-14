@@ -3,7 +3,7 @@
 # 导入包
 import pandas as pd
 import streamlit as st
-import joblib
+from sklearn.externals import joblib
 
 # main function
 # 设置网页名称
