@@ -283,8 +283,8 @@ if st.button('点击进行预测'):
         # result, probability = make_predict(input_df=input_df1)
 
         # 假设这里是预测的结果和概率
-        result = 1
-        probability = 0.75
+        # result = 1
+        # probability = 0.75
 
         # 显示结果
         st.header('您的胃溃疡风险：')
