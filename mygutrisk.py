@@ -289,7 +289,7 @@ if st.button('点击进行预测'):
         # 显示结果
         st.header('您的胃溃疡风险：')
 
-        if result == 1:
+        if int(result) == 1:
             st.write("您可能属于高危人群")
             # st.write(f"概率：{probability}")
         else:
