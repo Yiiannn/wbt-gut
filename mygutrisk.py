@@ -257,7 +257,7 @@ def codeing_fun(input_df):
 #                  future3yrs_probability[0, 0])
 def make_predict(input_df):
     # Load the trained model for predictions
-    model = joblib.load("https://github.com/Gal1nsoga/wbt-gut/blob/main/sklearn_RF_best_model.sav")  # 使用joblib导入保存好的模型
+    model = joblib.load("sklearn_RF_best_model.sav")  # 使用joblib导入保存好的模型
 
     # make prediction
     predict_result = model.predict(input_df)  # 对输入的数据进行预测
