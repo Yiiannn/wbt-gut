@@ -271,7 +271,7 @@ def make_predict(input_df):
 
 
 # 设置一个按钮用于预测
- 设置一个按钮用于预测
+ 
 if st.button('点击进行预测'):
     # 检查是否完成了所有选项
     if input_df.isnull().values.any():
