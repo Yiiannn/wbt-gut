@@ -274,7 +274,7 @@ def make_predict(input_df):
 if st.button('点击进行预测'):
     if input_df is None:
         st.warning("您有问题未完成，请确保完成了所有选项！")
-    else：
+    else:
         input_df1 = codeing_fun(input_df=input_df)
 
         # make prediction from the input data
